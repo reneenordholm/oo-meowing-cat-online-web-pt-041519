@@ -1,5 +1,5 @@
 class Cat
-  attr_assessor :name
+  attr_accessor :name
 end
 
 maru = Cat.new
