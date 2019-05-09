@@ -1,9 +1,8 @@
 class Cat
   attr_accessor :name
-
-  def meow 
-    meow = "meow!"
-  end
+  
+  attr_writer :meow
+  attr_reader :meow
 end
 
 maru = Cat.new
