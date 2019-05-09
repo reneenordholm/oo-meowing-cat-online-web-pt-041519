@@ -10,3 +10,4 @@ maru.name = "Maru"
 puts maru.name
 
 maru.meow = "meow!"
+return maru.meow
